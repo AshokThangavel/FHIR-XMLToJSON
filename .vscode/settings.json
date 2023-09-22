@@ -5,18 +5,18 @@
         "iris.script": "objectscript"
       },
     "objectscript.conn" :{
-      "ns": "USER",
+      "ns": "IRISAPP",
       "username": "_SYSTEM",
       "password": "SYS",
       "docker-compose": {
         "service": "iris",
         "internalPort": 52773
       },
-      "active": true
+      "active": false
     },
     "sqltools.connections": [
       {
-        "namespace": "USER",
+        "namespace": "IRISAPP",
         "connectionMethod": "Server and Port",
         "showSystem": false,
         "previewLimit": 50,
