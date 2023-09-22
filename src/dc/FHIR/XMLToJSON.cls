@@ -9,9 +9,6 @@ ClassMethod OnPage() As %Status
 	do ..LoadSetup()
 	write "<title>FHIR XML > JSON</title>"
 	&HTML<
-	<link rel = "icon" href = 
-"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
-        type = "image/x-icon">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="jquery.json-editor.min.js"></script>
 	>
