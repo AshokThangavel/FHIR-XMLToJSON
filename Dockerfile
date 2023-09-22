@@ -4,7 +4,7 @@ FROM $IMAGE
 WORKDIR /home/irisowner/dev
 
 ARG TESTS=0
-ARG MODULE="objectscript-template"
+ARG MODULE="FHIRXML-JSON"
 ARG NAMESPACE="IRISAPP"
 
 ## Embedded Python environment
